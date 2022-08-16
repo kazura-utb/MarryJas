@@ -1,0 +1,18 @@
+﻿{
+  "Name": "MarryJas",
+  "Author": "kazurautb",
+  "Version": "1.0.0",
+  "Description": "We want to marry Jas.",
+  "UniqueID": "kazurautb.MarryJas",
+  "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
+  //"ContentPackFor": {
+  //  "UniqueID": "Pathoschild.ContentPatcher"
+  //},
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": false
+    }
+  ],
+  "EntryDll": "MarryJas.dll"
+}

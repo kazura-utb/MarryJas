@@ -1,0 +1,16 @@
+﻿{
+  "Format": "1.27.2",
+  "Changes": [
+    // your changes will go here
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Fields": {
+        "Jas": {
+          "5": "datable", // non-datable to datable
+          //"8": "summer 15"
+        }
+      }
+    }
+  ]
+}

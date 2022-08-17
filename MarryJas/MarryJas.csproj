@@ -47,9 +47,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="assets\FarmHouse1_marriage_jas.tbin" />
+    <None Include="assets\FarmHouse2_marriage_jas.tbin" />
     <None Include="content.json" />
     <None Include="manifest.json" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\Jas_add_marriage.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Pathoschild.Stardew.ModBuildConfig.4.0.1\build\Pathoschild.Stardew.ModBuildConfig.targets" Condition="Exists('..\packages\Pathoschild.Stardew.ModBuildConfig.4.0.1\build\Pathoschild.Stardew.ModBuildConfig.targets')" />
